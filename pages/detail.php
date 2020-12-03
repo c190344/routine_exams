@@ -26,7 +26,7 @@
     } catch (PDOException $e) { 
     	echo $e->getMessage();
     } 
-
+//----
  
     var_dump($id);
     var_dump($records);
